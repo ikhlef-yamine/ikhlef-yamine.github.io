@@ -1,80 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>VIPMAN DZ</title>
-    <link rel="stylesheet"type="text/CSS"href="core/style.css">
+    <title>ohmytel</title>
+    <link rel="stylesheet" href="core/styles.css">
 </head>
+
 <body>
     <nav>
-        <IMg src="Assets/IMAGES/HOME.jpg" height="70"width="200"></IMg>
-        <h1>VIPMAN DZ</h1>
-        <div class ="onglets">
-            <a href="#">HOME</a>
-            <a href="#produits">PRODUITS</a>
-            <a href="#contact">CONTACT</a>
-           
-        </div>
-
+        <ul>
+            <li><a href="#">Accueil</a></li>
+            <li><a href="#">Produits</a></li>
+            <li><a href="#">À propos</a></li>
+            <li><a href="core/contact.html" target="_blank">Contact</a></li>
+        </ul>
     </nav>
-    
+
     <header>
-        <h1>VIPMANDZ</h1>
-        <h4>LE MEILLEUR MAGASIN DE MOD .</h4>
-        <button>Parcourir</button>
+        <h1>Bienvenue dans notre boutique </h1>
+        <p>Découvrez une large sélection de téléphone et d'accessoire </p>
+        <a href="#" class="btn">Voir les produits</a>
     </header>
-    
-   
 
-    <section class="main" id="produits">
-
-        <div class="content">
-            <div class="card">
-                <div class="left">
-                    <h1>Nos valeurs</h1>
-                    <p>Habillez vous Correctement tout on etants styleé . Nos clients sont rois, nos clients sont nos patrons.</p>
-                </div>
-                <div class="right">
-                    <img src="Assets/IMAGES/SWEATS 1.jpg">
-                </div>
-            </div>
-
-            <div class="card">
-                <div class="left">
-                    <h1>Nos produits </h1>
-                    <p>Nous mettons à votre disposition les vetments de hautes qualiter avec les prix les plus bas  !!! </p>
-                </div>
-                <div class="right">
-                    <img src="Assets/IMAGES/BASKETS 03.jpg">
-                </div>
-            </div>
+    <section id="featured-products">
+        <h2>Produits en vedette</h2>
+        <div class="product-container">
+            <ul>
+                <li>appel phone </li>
+                    <ul>
+                    <li>iphone 14</li>
+                    <figure>
+                        <img src="Assets/IMAGES/iphone 14.jpg" alt="iphone 14" />
+                        
+                        </figure>
+                    <li>iphone 13</li>
+                    <figure>
+                        <img src="Assets/IMAGES/iphone13.jpg" alt="iphone 13" />
+                        
+                        </figure>
+                   </ul>
+                <li>samsung phone </li>
+                <ul>
+                    <li>samsung galaxy s23</li>
+                    <figure>
+                        <img src="Assets/IMAGES/s23.jpg" alt="samsung galaxy s23" />
+                    
+                        </figure>
+                    <li>samsung galaxy s21</li>
+                    <figure>
+                        <img src="Assets/IMAGES/s21.jpg" alt="samsung galaxy s21" />
+                    
+                        </figure>
+                </ul>
+                <li>huawawei</li>
+                <ul>
+                    <li> Huawawei p50</li>
+                    <figure>
+                        <img src="Assets/IMAGES/p50.jpg" alt="Huawawei p50" />
+                        
+                        </figure>
+                    <li>Huawawei p40 pro</li>
+                    <figure>
+                        <img src="Assets/IMAGES/p40.jpg" alt="Huawawei p40" />
+                        
+                        </figure>
+                </ul>
+            </ul>
         </div>
     </section>
 
+    </section>
+
+    <section id="tables">
+       
+        <h2>plus d'information</h2>
+        <p>vous trouverer ci desous les liens des service clien de chaque une des boutique pour toutes information complaimentaire sur nous produits</p>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Appel</th>
+                    <th>Samsung</th>
+                    <th>Huawawei</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><a href="http://www.custominfo.org/2.html"target="_blanc" >cliquer ici</td>
+                    <td><a href=https://www.samsung.com/fr/support/contact target="_blanc" >cliquer ici</a></td>
+                    <td><a href=https://consumer.huawei.com/fr/support/contact-us target="_blanc" >cliquer ici</td>
+            </tbody>
+        </table>
+    </section>
+
     <footer>
-
-        <h1>Nos services</h1>
-        <div class="services">
-            
-            <div class="service">
-                <h3>Livraison gratuite</h3>
-            </div>
-
-            <div class="service">
-                <h3>Paiement en ligne</h3>
-                
-            </div>
-
-            <div class="service">
-                <h3>Aimé ou remboursé</h3>
-                
-            </div>
-
-        </div>
-
-        <p id="contact">Contact : 08 19 17 278 1 | &copy; 2021, VIPMAN DZ.</p>
+        <p>&copy; 2023 ohmytel. Tous droits réservés.</p>
     </footer>
 </body>
+
 </html>
